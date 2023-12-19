@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Downloads</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='download.css') }}">
+</head>
+<body>
+    <div class="container">
+        <template id="row">
+            <div id="window_" class="window">
+                <span id="val1_text">https://t.me/test</span>
+                <progress id="val1_bar" max="100" value="70">70</progress>
+                <span id="val1_2text">11/11</span>
+            </div>
+        </template>
+    </div>
+
+    <div class="container2">
+        <template id="row2">
+            <div id="window2_" class="window2">
+                <span id="val2_text">https://t.me/test</span>
+            </div>
+        </template>
+    </div>
+    <script src="{{ url_for('static', filename='download.js') }}"></script>
+</body>
+</html>

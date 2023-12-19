@@ -1,0 +1,10 @@
+aiohttp
+aiosqlite
+Quart
+quart-schema
+beautifulsoup4
+requests
+torch
+transformers
+validators
+pandas
